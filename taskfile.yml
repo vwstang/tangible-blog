@@ -1,0 +1,18 @@
+version: "3"
+
+silent: true
+
+tasks:
+  default:
+    cmds:
+      - task -l
+
+  dev:
+    desc: Start a dev server
+    cmds:
+      - npm run blog:dev
+
+  build:
+    desc: Generate static blog files
+    cmds:
+      - npm run blog:build

@@ -1,0 +1,16 @@
+{
+  "name": "tangible-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "blog:dev": "vitepress dev blog",
+    "blog:build": "vitepress build blog",
+    "blog:preview": "vitepress preview blog"
+  },
+  "author": "vwstang",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}

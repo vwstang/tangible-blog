@@ -1,0 +1,7 @@
+# NodeJS
+node_modules/
+
+# VitePress default build output directory
+**/.vitepress/dist/
+# VitePress default cache directory
+**/.vitepress/cache/
